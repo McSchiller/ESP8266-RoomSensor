@@ -17,7 +17,6 @@
     "express": "^4.16.4",
     "mongodb": "^3.1.10",
     "node-odata": "^0.7.16",
-    "openui5.runtime.downloader": "^2.0.6",
     "simple-odata-server": "^1.1.0",
     "simple-odata-server-mongodb": "^1.0.0"
   },
