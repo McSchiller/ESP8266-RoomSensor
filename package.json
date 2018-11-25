@@ -13,12 +13,11 @@
   "author": "Ulofemi",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.16.4",
-    "mongodb": "^3.1.10",
-    "node-odata": "^0.7.16",
-    "simple-odata-server": "^1.1.0",
-    "simple-odata-server-mongodb": "^1.0.0"
+    "cors": "2.8.5",
+    "express": "4.16.4",
+    "mongodb": "3.1.10",
+    "simple-odata-server": "1.1.0",
+    "simple-odata-server-mongodb": "1.0.0"
   },
   "bugs": {
     "url": "https://github.com/McSchiller/ESP8266-RoomSensor/issues"

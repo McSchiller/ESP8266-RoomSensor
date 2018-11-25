@@ -52,7 +52,7 @@ var model = {
 var odataServer = ODataServer().model(model);
 
 // Connection to demo database in MongoDB
-MongoClient.connect("mongodb://localhost/ulofemi", function (err, db) {
+MongoClient.connect("mongodb://localhost/ulofemi" , { useNewUrlParser: true }, function (err, db) {
     odataServer.adapter(Adapter(function (cb) {
         cb(err, db.db('myodatadb'));
     }));
@@ -63,6 +63,10 @@ app.get('/', function (req, res) {
     //__dirname : It will resolve to your project folder.
 });
 
+app.get('/candy', function (req, res) {
+    console.log("Secret");
+});
+
 // The directive to set app route path.
 app.use("/odata", function (req, res) {
     odataServer.handle(req, res);
@@ -70,5 +74,7 @@ app.use("/odata", function (req, res) {
 
 // The app listens on port 3010 and prints the endpoint URI in console window.
 var server = app.listen(3010, function () {
-    console.log('Server running at http://127.0.0.1:3010/');
+    console.log('Server running at: ');
+    console.log('Webserver     http://localhost:3010/');
+    console.log('oData-Service http://localhost:3010/odata/ ');
 });
