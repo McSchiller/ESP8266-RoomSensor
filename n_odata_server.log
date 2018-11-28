@@ -1,0 +1,499 @@
+[2018-11-28 23:55:04.519] [INFO] odata - processing OData V2 request of type GET
+[2018-11-28 23:55:04.521] [DEBUG] odata - baseUrl = /odata
+[2018-11-28 23:55:04.521] [DEBUG] odata - call to . Doesn't need checkAccess
+[2018-11-28 23:55:04.522] [DEBUG] odata - checkAccess passed successfully
+[2018-11-28 23:55:12.512] [INFO] odata - processing OData V2 request of type GET
+[2018-11-28 23:55:12.512] [DEBUG] odata - baseUrl = /odata
+[2018-11-28 23:55:12.512] [DEBUG] odata - call to . Doesn't need checkAccess
+[2018-11-28 23:55:12.512] [DEBUG] odata - checkAccess passed successfully
+[2018-11-28 23:55:17.358] [INFO] odata - processing OData V2 request of type GET
+[2018-11-28 23:55:17.359] [DEBUG] odata - baseUrl = /odata/$metadata
+[2018-11-28 23:55:17.359] [DEBUG] odata - call to $metadata. Doesn't need checkAccess
+[2018-11-28 23:55:17.359] [DEBUG] odata - checkAccess passed successfully
+[2018-11-28 23:55:17.359] [TRACE] metadata - entering buildMetadata
+[2018-11-28 23:55:17.369] [ERROR] console - (node:11344) UnhandledPromiseRejectionWarning: Error: Missing attribute value for attribute Type of element Property
+    at new XMLAttribute (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/n-odata-server/node_modules/xmlbuilder/lib/XMLAttribute.js:13:15)
+    at XMLElement.module.exports.XMLElement.attribute (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/n-odata-server/node_modules/xmlbuilder/lib/XMLElement.js:72:35)
+    at XMLElement.module.exports.XMLNode.element (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/n-odata-server/node_modules/xmlbuilder/lib/XMLNode.js:75:30)
+    at XMLElement.module.exports.XMLNode.element (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/n-odata-server/node_modules/xmlbuilder/lib/XMLNode.js:85:23)
+    at XMLElement.module.exports.XMLNode.element (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/n-odata-server/node_modules/xmlbuilder/lib/XMLNode.js:81:32)
+    at XMLElement.module.exports.XMLNode.element (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/n-odata-server/node_modules/xmlbuilder/lib/XMLNode.js:85:23)
+    at XMLElement.module.exports.XMLNode.element (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/n-odata-server/node_modules/xmlbuilder/lib/XMLNode.js:81:32)
+    at XMLElement.module.exports.XMLNode.element (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/n-odata-server/node_modules/xmlbuilder/lib/XMLNode.js:85:23)
+    at XMLElement.module.exports.XMLNode.element (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/n-odata-server/node_modules/xmlbuilder/lib/XMLNode.js:85:23)
+    at XMLDocument.module.exports.XMLNode.element (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/n-odata-server/node_modules/xmlbuilder/lib/XMLNode.js:85:23)
+    at Object.module.exports.create (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/n-odata-server/node_modules/xmlbuilder/lib/index.js:22:16)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/n-odata-server/lib/base/metadata/metadata.js:83:46
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2018-11-28 23:55:17.382] [ERROR] console - (node:11344) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+[2018-11-28 23:55:17.382] [ERROR] console - (node:11344) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[2018-11-28 23:55:37.677] [INFO] odata - processing OData V2 request of type GET
+[2018-11-28 23:55:37.677] [DEBUG] odata - baseUrl = /odata
+[2018-11-28 23:55:37.677] [DEBUG] odata - call to . Doesn't need checkAccess
+[2018-11-28 23:55:37.678] [DEBUG] odata - checkAccess passed successfully
+[2018-11-28 23:55:51.928] [INFO] odata - processing OData V2 request of type GET
+[2018-11-28 23:55:51.928] [DEBUG] odata - baseUrl = /odata
+[2018-11-28 23:55:51.929] [DEBUG] odata - call to . Doesn't need checkAccess
+[2018-11-28 23:55:51.929] [DEBUG] odata - checkAccess passed successfully
+[2018-11-28 23:55:56.250] [INFO] odata - processing OData V2 request of type GET
+[2018-11-28 23:55:56.250] [DEBUG] odata - baseUrl = /odata
+[2018-11-28 23:55:56.251] [DEBUG] odata - call to . Doesn't need checkAccess
+[2018-11-28 23:55:56.251] [DEBUG] odata - checkAccess passed successfully
+[2018-11-28 23:56:32.811] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung POST /api/Roomdatas: ValidationError: Die Instanz `Roomdata` ist nicht gültig. Details: `id` can't be set (value: 1).
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/dao.js:370:12
+    at Roomdata.<anonymous> (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/validations.js:578:11)
+    at Roomdata.next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/hooks.js:93:12)
+    at Roomdata.<anonymous> (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/validations.js:575:23)
+    at Roomdata.trigger (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/hooks.js:83:12)
+    at Roomdata.Validatable.isValid (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/validations.js:541:8)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/dao.js:366:9
+    at doNotify (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/observer.js:155:49)
+    at doNotify (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/observer.js:155:49)
+    at doNotify (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/observer.js:155:49)
+    at doNotify (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/observer.js:155:49)
+    at Function.ObserverMixin._notifyBaseObservers (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/observer.js:178:5)
+    at Function.ObserverMixin.notifyObserversOf (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/observer.js:153:8)
+    at Function.ObserverMixin._notifyBaseObservers (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/observer.js:176:15)
+    at Function.ObserverMixin.notifyObserversOf (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/observer.js:153:8)
+    at Function.ObserverMixin._notifyBaseObservers (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/observer.js:176:15)
+[2018-11-28 23:57:39.912] [INFO] odata - processing OData V2 request of type GET
+[2018-11-28 23:57:39.913] [DEBUG] odata - baseUrl = /odata/Roomdatas
+[2018-11-28 23:57:39.917] [DEBUG] odata - checkAccess passed successfully
+[2018-11-28 23:57:39.922] [INFO] console - filter: {"limit":1000}
+[2018-11-29 00:01:21.431] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung GET /: ReferenceError: path is not defined
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/server/server.js:25:16
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/body-parser/lib/types/json.js:110:7)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:317:13)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at nosniff (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/dont-sniff-mimetype/index.js:4:5)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+[2018-11-29 00:03:01.378] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung GET /: ReferenceError: path is not defined
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/server/server.js:35:16
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/body-parser/lib/types/json.js:110:7)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:317:13)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at cors (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/cors/lib/index.js:188:7)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/cors/lib/index.js:224:17
+[2018-11-29 00:03:11.325] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung GET /: ReferenceError: path is not defined
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/server/server.js:35:16
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/body-parser/lib/types/json.js:110:7)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:317:13)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at cors (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/cors/lib/index.js:188:7)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/cors/lib/index.js:224:17
+[2018-11-29 00:03:38.609] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung GET /app: ReferenceError: path is not defined
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/server/server.js:35:16
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/body-parser/lib/types/json.js:110:7)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:317:13)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at cors (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/cors/lib/index.js:188:7)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/cors/lib/index.js:224:17
+[2018-11-29 00:04:13.240] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung GET /app: ReferenceError: path is not defined
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/server/server.js:35:16
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/body-parser/lib/types/json.js:110:7)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:317:13)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at cors (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/cors/lib/index.js:188:7)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/cors/lib/index.js:224:17
+[2018-11-29 00:04:14.414] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung GET /app: ReferenceError: path is not defined
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/server/server.js:35:16
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/body-parser/lib/types/json.js:110:7)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:317:13)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at cors (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/cors/lib/index.js:188:7)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/cors/lib/index.js:224:17
+[2018-11-29 00:10:21.818] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung GET /api/Roomdatas/change-stream?options=1: Error: Wert ist kein Objekt.
+    at errorNotAnObject (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/strong-remoting/lib/types/object.js:80:13)
+    at Object.validate (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/strong-remoting/lib/types/object.js:51:14)
+    at Object.fromTypedValue (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/strong-remoting/lib/types/object.js:14:22)
+    at Object.fromSloppyValue (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/strong-remoting/lib/types/object.js:41:17)
+    at HttpContext.buildArgs (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/strong-remoting/lib/http-context.js:193:21)
+    at new HttpContext (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/strong-remoting/lib/http-context.js:59:20)
+    at restStaticMethodHandler (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/strong-remoting/lib/rest-adapter.js:486:15)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:47:12)
+[2018-11-29 00:14:43.564] [INFO] odata - processing OData V2 request of type GET
+[2018-11-29 00:14:43.565] [DEBUG] odata - baseUrl = /odata/Roomdatas
+[2018-11-29 00:14:43.572] [DEBUG] odata - checkAccess passed successfully
+[2018-11-29 00:14:43.579] [INFO] console - filter: {"limit":1000}
+[2018-11-29 00:15:39.499] [INFO] odata - processing OData V2 request of type GET
+[2018-11-29 00:15:39.500] [DEBUG] odata - baseUrl = /odata/Roomdatas
+[2018-11-29 00:15:39.501] [DEBUG] odata - checkAccess passed successfully
+[2018-11-29 00:15:39.502] [INFO] console - filter: {"limit":1000}
+[2018-11-29 00:16:19.867] [INFO] odata - processing OData V2 request of type POST
+[2018-11-29 00:16:19.867] [DEBUG] odata - baseUrl = /odata/Roomdatas
+[2018-11-29 00:16:19.868] [DEBUG] odata - checkAccess passed successfully
+[2018-11-29 00:16:19.869] [TRACE] post - handle post
+[2018-11-29 00:16:19.876] [ERROR] console - { ValidationError: Die Instanz `Roomdata` ist nicht gültig. Details: `SensorID` can't be blank (value: undefined).
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/dao.js:370:12
+    at Roomdata.<anonymous> (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/validations.js:578:11)
+    at Roomdata.next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/hooks.js:93:12)
+    at Roomdata.<anonymous> (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/validations.js:575:23)
+    at Roomdata.trigger (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/hooks.js:83:12)
+    at Roomdata.Validatable.isValid (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/validations.js:541:8)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/dao.js:366:9
+    at doNotify (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/observer.js:155:49)
+    at doNotify (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/observer.js:155:49)
+    at doNotify (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/observer.js:155:49)
+    at doNotify (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/observer.js:155:49)
+    at Function.ObserverMixin._notifyBaseObservers (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/observer.js:178:5)
+    at Function.ObserverMixin.notifyObserversOf (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/observer.js:153:8)
+    at Function.ObserverMixin._notifyBaseObservers (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/observer.js:176:15)
+    at Function.ObserverMixin.notifyObserversOf (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/observer.js:153:8)
+    at Function.ObserverMixin._notifyBaseObservers (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback-datasource-juggler/lib/observer.js:176:15)
+  name: 'ValidationError',
+  message:
+   'Die Instanz `Roomdata` ist nicht gültig. Details: `SensorID` can\'t be blank (value: undefined).',
+  statusCode: 422,
+  details:
+   { context: 'Roomdata',
+     codes: { SensorID: [Array] },
+     messages: Errors { SensorID: [Array] } } }
+[2018-11-29 00:16:19.894] [ERROR] console - (node:11569) [DEP0079] DeprecationWarning: Custom inspection function on Objects via .inspect() is deprecated
+[2018-11-29 00:16:44.112] [INFO] odata - processing OData V2 request of type GET
+[2018-11-29 00:16:44.112] [DEBUG] odata - baseUrl = /odata/Roomdatas
+[2018-11-29 00:16:44.113] [DEBUG] odata - checkAccess passed successfully
+[2018-11-29 00:16:44.114] [INFO] console - filter: {"limit":1000}
+[2018-11-29 00:17:00.809] [INFO] odata - processing OData V2 request of type POST
+[2018-11-29 00:17:00.810] [DEBUG] odata - baseUrl = /odata/Roomdatas
+[2018-11-29 00:17:00.813] [DEBUG] odata - checkAccess passed successfully
+[2018-11-29 00:17:00.814] [TRACE] post - handle post
+[2018-11-29 00:17:00.819] [TRACE] post - created Roomdata with id 2.
+[2018-11-29 00:17:08.827] [INFO] odata - processing OData V2 request of type GET
+[2018-11-29 00:17:08.827] [DEBUG] odata - baseUrl = /odata/Roomdatas
+[2018-11-29 00:17:08.828] [DEBUG] odata - checkAccess passed successfully
+[2018-11-29 00:17:08.829] [INFO] console - filter: {"limit":1000}
+[2018-11-29 00:17:18.599] [INFO] odata - processing OData V2 request of type GET
+[2018-11-29 00:17:18.599] [DEBUG] odata - baseUrl = /odata/Roomdatas(2)
+[2018-11-29 00:17:18.600] [DEBUG] odata - checkAccess passed successfully
+[2018-11-29 00:32:49.619] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung GET /valuesTemp.php?sensorID=1&hours=1: Error: Cannot GET /valuesTemp.php?sensorID=1&hours=1
+    at raiseUrlNotFoundError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback/server/middleware/url-not-found.js:21:17)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:317:13)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:182:13)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:421:12)
+    at onstat (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:154:21)
+[2018-11-29 00:32:49.659] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung GET /valuesTemp.php?sensorID=2&hours=1: Error: Cannot GET /valuesTemp.php?sensorID=2&hours=1
+    at raiseUrlNotFoundError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback/server/middleware/url-not-found.js:21:17)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:317:13)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:182:13)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:421:12)
+    at onstat (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:154:21)
+[2018-11-29 00:32:49.675] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung GET /valuesTemp.php?sensorID=3&hours=1: Error: Cannot GET /valuesTemp.php?sensorID=3&hours=1
+    at raiseUrlNotFoundError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback/server/middleware/url-not-found.js:21:17)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:317:13)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:182:13)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:421:12)
+    at onstat (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:154:21)
+[2018-11-29 00:32:49.685] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung GET /valuesTemp.php?sensorID=4&hours=1: Error: Cannot GET /valuesTemp.php?sensorID=4&hours=1
+    at raiseUrlNotFoundError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback/server/middleware/url-not-found.js:21:17)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:317:13)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:182:13)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:421:12)
+    at onstat (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:154:21)
+[2018-11-29 00:32:49.704] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung GET /valuesTemp.php?sensorID=5&hours=1: Error: Cannot GET /valuesTemp.php?sensorID=5&hours=1
+    at raiseUrlNotFoundError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback/server/middleware/url-not-found.js:21:17)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:317:13)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:182:13)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:421:12)
+    at onstat (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:154:21)
+[2018-11-29 00:33:01.008] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung GET /valuesTemp.php?sensorID=1&hours=1: Error: Cannot GET /valuesTemp.php?sensorID=1&hours=1
+    at raiseUrlNotFoundError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback/server/middleware/url-not-found.js:21:17)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:317:13)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:182:13)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:421:12)
+    at onstat (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:154:21)
+[2018-11-29 00:33:01.018] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung GET /valuesTemp.php?sensorID=2&hours=1: Error: Cannot GET /valuesTemp.php?sensorID=2&hours=1
+    at raiseUrlNotFoundError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback/server/middleware/url-not-found.js:21:17)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:317:13)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:182:13)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:421:12)
+    at onstat (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:154:21)
+[2018-11-29 00:33:01.056] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung GET /valuesTemp.php?sensorID=3&hours=1: Error: Cannot GET /valuesTemp.php?sensorID=3&hours=1
+    at raiseUrlNotFoundError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback/server/middleware/url-not-found.js:21:17)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:317:13)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:182:13)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:421:12)
+    at onstat (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:154:21)
+[2018-11-29 00:33:01.082] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung GET /valuesTemp.php?sensorID=4&hours=1: Error: Cannot GET /valuesTemp.php?sensorID=4&hours=1
+    at raiseUrlNotFoundError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback/server/middleware/url-not-found.js:21:17)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:317:13)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:182:13)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:421:12)
+    at onstat (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:154:21)
+[2018-11-29 00:33:01.089] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung GET /valuesTemp.php?sensorID=5&hours=1: Error: Cannot GET /valuesTemp.php?sensorID=5&hours=1
+    at raiseUrlNotFoundError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback/server/middleware/url-not-found.js:21:17)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:317:13)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:182:13)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:421:12)
+    at onstat (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:154:21)
+[2018-11-29 00:33:03.974] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung GET /valuesTemp.php?sensorID=1&hours=1: Error: Cannot GET /valuesTemp.php?sensorID=1&hours=1
+    at raiseUrlNotFoundError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback/server/middleware/url-not-found.js:21:17)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:317:13)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:182:13)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:421:12)
+    at onstat (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:154:21)
+[2018-11-29 00:33:03.982] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung GET /valuesTemp.php?sensorID=2&hours=1: Error: Cannot GET /valuesTemp.php?sensorID=2&hours=1
+    at raiseUrlNotFoundError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback/server/middleware/url-not-found.js:21:17)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:317:13)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:182:13)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:421:12)
+    at onstat (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:154:21)
+[2018-11-29 00:33:04.017] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung GET /valuesTemp.php?sensorID=3&hours=1: Error: Cannot GET /valuesTemp.php?sensorID=3&hours=1
+    at raiseUrlNotFoundError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback/server/middleware/url-not-found.js:21:17)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:317:13)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:182:13)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:421:12)
+    at onstat (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:154:21)
+[2018-11-29 00:33:04.051] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung GET /valuesTemp.php?sensorID=4&hours=1: Error: Cannot GET /valuesTemp.php?sensorID=4&hours=1
+    at raiseUrlNotFoundError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback/server/middleware/url-not-found.js:21:17)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:317:13)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:182:13)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:421:12)
+    at onstat (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:154:21)
+[2018-11-29 00:33:04.073] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung GET /valuesTemp.php?sensorID=5&hours=1: Error: Cannot GET /valuesTemp.php?sensorID=5&hours=1
+    at raiseUrlNotFoundError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback/server/middleware/url-not-found.js:21:17)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:317:13)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:182:13)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:421:12)
+    at onstat (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:154:21)
+[2018-11-29 00:33:16.520] [INFO] odata - processing OData V2 request of type GET
+[2018-11-29 00:33:16.521] [DEBUG] odata - baseUrl = /odata/Roomdatas
+[2018-11-29 00:33:16.538] [DEBUG] odata - checkAccess passed successfully
+[2018-11-29 00:33:16.546] [INFO] console - filter: {"limit":1000}
+[2018-11-29 00:33:24.584] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung GET /valuesTemp.php?sensorID=1&hours=1: Error: Cannot GET /valuesTemp.php?sensorID=1&hours=1
+    at raiseUrlNotFoundError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback/server/middleware/url-not-found.js:21:17)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:317:13)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:182:13)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:421:12)
+    at onstat (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:154:21)
+[2018-11-29 00:33:24.596] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung GET /valuesTemp.php?sensorID=2&hours=1: Error: Cannot GET /valuesTemp.php?sensorID=2&hours=1
+    at raiseUrlNotFoundError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback/server/middleware/url-not-found.js:21:17)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:317:13)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:182:13)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:421:12)
+    at onstat (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:154:21)
+[2018-11-29 00:33:24.633] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung GET /valuesTemp.php?sensorID=3&hours=1: Error: Cannot GET /valuesTemp.php?sensorID=3&hours=1
+    at raiseUrlNotFoundError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback/server/middleware/url-not-found.js:21:17)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:317:13)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:182:13)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:421:12)
+    at onstat (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:154:21)
+[2018-11-29 00:33:24.641] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung GET /valuesTemp.php?sensorID=4&hours=1: Error: Cannot GET /valuesTemp.php?sensorID=4&hours=1
+    at raiseUrlNotFoundError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback/server/middleware/url-not-found.js:21:17)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:317:13)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:182:13)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:421:12)
+    at onstat (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:154:21)
+[2018-11-29 00:33:24.678] [ERROR] console - Nicht verarbeiteter Fehler für Anforderung GET /valuesTemp.php?sensorID=5&hours=1: Error: Cannot GET /valuesTemp.php?sensorID=5&hours=1
+    at raiseUrlNotFoundError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/loopback/server/middleware/url-not-found.js:21:17)
+    at Layer.handle [as handle_request] (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:317:13)
+    at /Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:182:13)
+    at SendStream.error (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:421:12)
+    at onstat (/Users/andreasschiller/Documents/VS Code/sensorroom/node_modules/send/index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:154:21)

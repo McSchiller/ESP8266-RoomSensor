@@ -1,0 +1,28 @@
+{
+  "name": "Roomdata",
+  "plural": "Roomdatas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "SensorID": {
+      "type": "number",
+      "required": true
+    },
+    "Temp": {
+      "type": "number"
+    },
+    "Hum": {
+      "type": "number"
+    },
+    "Timestamp": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

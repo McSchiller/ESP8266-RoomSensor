@@ -1,0 +1,21 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "Roomdata": 3
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "Roomdata": {
+      "1": "{\"SensorID\":2,\"Temp\":10,\"Hum\":10,\"Timestamp\":\"2018-11-28T22:55:58.503Z\",\"id\":1}",
+      "2": "{\"SensorID\":3,\"Temp\":10,\"Hum\":10,\"Timestamp\":\"2018-11-28T22:55:58.503Z\",\"id\":2}"
+    }
+  }
+}
